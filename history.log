@@ -1,0 +1,23 @@
+{"level":"info","message":"app runs on port 8080","timestamp":"2017-06-02T09:07:42.122Z"}
+{"level":"info","message":"app.get /sysadmin","timestamp":"2017-06-02T09:07:51.107Z"}
+{"level":"info","message":"app.get /sysadmin/app_state","timestamp":"2017-06-02T09:07:53.090Z"}
+{"level":"info","message":"app.get /sysadmin","timestamp":"2017-06-02T09:14:57.877Z"}
+{"level":"info","message":"app.get /sysadmin/app_state","timestamp":"2017-06-02T09:14:59.320Z"}
+{"message":"Server process failed! Reason:","stack":"ReferenceError: sql is not defined\n    at Object.module.exports.databaseConnection (/home/ianagez/IdeaProjects/sysadmin_ui_tests/dataBase.js:27:16)\n    at tryDBConnect (/home/ianagez/IdeaProjects/sysadmin_ui_tests/app.js:72:14)\n    at Object.<anonymous> (/home/ianagez/IdeaProjects/sysadmin_ui_tests/app.js:70:27)\n    at Module._compile (module.js:570:32)\n    at Object.Module._extensions..js (module.js:579:10)\n    at Module.load (module.js:487:32)\n    at tryModuleLoad (module.js:446:12)\n    at Function.Module._load (module.js:438:3)\n    at Module.runMain (module.js:604:10)\n    at run (bootstrap_node.js:393:7)","level":"error","timestamp":"2017-06-02T09:16:23.577Z"}
+{"message":"Server process failed! Reason:","stack":"TypeError: sql.Connection is not a constructor\n    at Object.module.exports.databaseConnection (/home/ianagez/IdeaProjects/sysadmin_ui_tests/dataBase.js:27:12)\n    at tryDBConnect (/home/ianagez/IdeaProjects/sysadmin_ui_tests/app.js:72:14)\n    at Object.<anonymous> (/home/ianagez/IdeaProjects/sysadmin_ui_tests/app.js:70:27)\n    at Module._compile (module.js:570:32)\n    at Object.Module._extensions..js (module.js:579:10)\n    at Module.load (module.js:487:32)\n    at tryModuleLoad (module.js:446:12)\n    at Function.Module._load (module.js:438:3)\n    at Module.runMain (module.js:604:10)\n    at run (bootstrap_node.js:393:7)","level":"error","timestamp":"2017-06-02T09:18:39.818Z"}
+{"level":"info","message":"app runs on port 8080","timestamp":"2017-06-02T09:25:55.598Z"}
+{"level":"info","message":"app.get /sysadmin","timestamp":"2017-06-02T09:26:05.940Z"}
+{"level":"info","message":"app.get /sysadmin/app_state","timestamp":"2017-06-02T09:26:07.497Z"}
+{"level":"info","message":"app.get /sysadmin/startup_parameters","timestamp":"2017-06-02T09:26:14.357Z"}
+{"level":"info","message":"app.get /sysadmin/startup_parameters/get_app_config","timestamp":"2017-06-02T09:26:15.098Z"}
+{"level":"info","message":"app.get /sysadmin/reports_config","timestamp":"2017-06-02T09:26:19.875Z"}
+{"level":"info","message":"app.get /sysadmin/startup_parameters","timestamp":"2017-06-02T09:26:22.943Z"}
+{"level":"info","message":"app.get /sysadmin/startup_parameters/get_app_config","timestamp":"2017-06-02T09:26:22.989Z"}
+{"level":"info","message":"app.get /sysadmin","timestamp":"2017-06-02T09:26:33.067Z"}
+{"level":"info","message":"app.get /sysadmin/app_state","timestamp":"2017-06-02T09:26:34.525Z"}
+{"level":"info","message":"app.get /sysadmin/startup_parameters","timestamp":"2017-06-02T09:26:35.886Z"}
+{"level":"info","message":"app.get /sysadmin/startup_parameters/get_app_config","timestamp":"2017-06-02T09:26:36.233Z"}
+{"level":"info","message":"app.get /sysadmin","timestamp":"2017-06-02T11:40:49.621Z"}
+{"level":"info","message":"app.get /sysadmin/app_state","timestamp":"2017-06-02T11:40:51.618Z"}
+{"level":"info","message":"app.get /sysadmin","timestamp":"2017-06-02T11:41:41.955Z"}
+{"level":"info","message":"app.get /sysadmin/app_state","timestamp":"2017-06-02T11:41:43.178Z"}

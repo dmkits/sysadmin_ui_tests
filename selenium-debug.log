@@ -1,0 +1,38 @@
+14:41:33.252 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+14:41:33.253 INFO - Launching a standalone Selenium Server
+2017-06-02 14:41:33.284:INFO::main: Logging initialized @450ms to org.seleniumhq.jetty9.util.log.StdErrLog
+14:41:33.367 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
+14:41:33.368 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
+14:41:33.368 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:41:33.368 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+14:41:33.369 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:41:33.369 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+14:41:33.371 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
+2017-06-02 14:41:33.437:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-06-02 14:41:33.493:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@3e6fa38a{/,null,AVAILABLE}
+2017-06-02 14:41:33.517:INFO:osjs.AbstractConnector:main: Started ServerConnector@6500df86{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-06-02 14:41:33.518:INFO:osjs.Server:main: Started @684ms
+14:41:33.518 INFO - Selenium Server is up and running
+14:41:33.939 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+14:41:33.981 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Sysadmin Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+14:41:34.016 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Sysadmin Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+1496403694523	geckodriver	INFO	Listening on 127.0.0.1:26162
+1496403694724	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.BMg5NOU99JpB
+1496403694726	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox with args []
+1496403694729	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41699
+1496403700907	Marionette	INFO	Listening on port 41699
+14:41:41.809 INFO - Detected dialect: W3C
+14:41:41.858 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Sysadmin Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+14:41:41.909 INFO - Executing: [get: http://localhost:8080/sysadmin])
+14:41:43.218 INFO - Done: [get: http://localhost:8080/sysadmin]
+14:41:43.235 INFO - Executing: [find elements: By.cssSelector: #sysadmin_TopImg])
+14:41:43.297 INFO - Done: [find elements: By.cssSelector: #sysadmin_TopImg]
+14:41:43.312 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on ANY (a98b1d9f-8442-4c2c-9abd-c0c05425c57b)] -> css selector: #sysadmin_TopImg]])
+14:41:43.453 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on ANY (a98b1d9f-8442-4c2c-9abd-c0c05425c57b)] -> css selector: #sysadmin_TopImg]]
+14:41:43.472 INFO - Executing: [delete session: 334d4a21-2bd3-44f4-90c5-a996043a330c])
+1496403703480	Marionette	INFO	New connections will no longer be accepted
+14:41:43.798 INFO - Done: [delete session: 334d4a21-2bd3-44f4-90c5-a996043a330c]
