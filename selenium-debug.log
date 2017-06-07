@@ -1,38 +1,124 @@
-14:41:33.252 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-14:41:33.253 INFO - Launching a standalone Selenium Server
-2017-06-02 14:41:33.284:INFO::main: Logging initialized @450ms to org.seleniumhq.jetty9.util.log.StdErrLog
-14:41:33.367 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+17:40:49.889 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+17:40:49.890 INFO - Launching a standalone Selenium Server
+2017-06-07 17:40:49.917:INFO::main: Logging initialized @394ms to org.seleniumhq.jetty9.util.log.StdErrLog
+17:40:49.990 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-14:41:33.368 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+17:40:49.991 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-14:41:33.368 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-14:41:33.368 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+17:40:49.991 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:40:49.991 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-14:41:33.369 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-14:41:33.369 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-14:41:33.371 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+17:40:49.992 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:40:49.992 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:40:49.993 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-2017-06-02 14:41:33.437:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-06-02 14:41:33.493:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@3e6fa38a{/,null,AVAILABLE}
-2017-06-02 14:41:33.517:INFO:osjs.AbstractConnector:main: Started ServerConnector@6500df86{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-06-02 14:41:33.518:INFO:osjs.Server:main: Started @684ms
-14:41:33.518 INFO - Selenium Server is up and running
-14:41:33.939 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-14:41:33.981 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Sysadmin Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
-14:41:34.016 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Sysadmin Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]
-1496403694523	geckodriver	INFO	Listening on 127.0.0.1:26162
-1496403694724	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.BMg5NOU99JpB
-1496403694726	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox with args []
-1496403694729	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41699
-1496403700907	Marionette	INFO	Listening on port 41699
-14:41:41.809 INFO - Detected dialect: W3C
-14:41:41.858 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Sysadmin Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
-14:41:41.909 INFO - Executing: [get: http://localhost:8080/sysadmin])
-14:41:43.218 INFO - Done: [get: http://localhost:8080/sysadmin]
-14:41:43.235 INFO - Executing: [find elements: By.cssSelector: #sysadmin_TopImg])
-14:41:43.297 INFO - Done: [find elements: By.cssSelector: #sysadmin_TopImg]
-14:41:43.312 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on ANY (a98b1d9f-8442-4c2c-9abd-c0c05425c57b)] -> css selector: #sysadmin_TopImg]])
-14:41:43.453 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on ANY (a98b1d9f-8442-4c2c-9abd-c0c05425c57b)] -> css selector: #sysadmin_TopImg]]
-14:41:43.472 INFO - Executing: [delete session: 334d4a21-2bd3-44f4-90c5-a996043a330c])
-1496403703480	Marionette	INFO	New connections will no longer be accepted
-14:41:43.798 INFO - Done: [delete session: 334d4a21-2bd3-44f4-90c5-a996043a330c]
+2017-06-07 17:40:50.060:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-06-07 17:40:50.117:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@3e6fa38a{/,null,AVAILABLE}
+2017-06-07 17:40:50.148:INFO:osjs.AbstractConnector:main: Started ServerConnector@6500df86{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-06-07 17:40:50.150:INFO:osjs.Server:main: Started @627ms
+17:40:50.150 INFO - Selenium Server is up and running
+17:40:50.594 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+17:40:50.642 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Sysadmin Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+17:40:50.676 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Sysadmin Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+1496846451201	geckodriver	INFO	Listening on 127.0.0.1:14531
+1496846451405	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ZwwhzwXye65a
+1496846451406	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox with args []
+1496846451408	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40011
+1496846456941	Marionette	INFO	Listening on port 40011
+17:40:57.758 INFO - Detected dialect: W3C
+17:40:57.807 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Sysadmin Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+17:40:57.857 INFO - Executing: [get: http://localhost:8080/sysadmin])
+17:40:59.129 INFO - Done: [get: http://localhost:8080/sysadmin]
+17:40:59.145 INFO - Executing: [get title])
+17:40:59.166 INFO - Done: [get title]
+17:40:59.185 INFO - Executing: [find elements: By.cssSelector: #sysadmin_app_mode])
+17:40:59.261 INFO - Done: [find elements: By.cssSelector: #sysadmin_app_mode]
+17:40:59.271 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_mode]])
+17:40:59.409 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_mode]]
+17:40:59.420 INFO - Executing: [find elements: By.cssSelector: #sysadmin_app_port])
+17:40:59.445 INFO - Done: [find elements: By.cssSelector: #sysadmin_app_port]
+17:40:59.452 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_port]])
+17:40:59.538 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_port]]
+17:40:59.548 INFO - Executing: [find elements: By.cssSelector: #sysadmin_dbName])
+17:40:59.569 INFO - Done: [find elements: By.cssSelector: #sysadmin_dbName]
+17:40:59.576 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_dbName]])
+17:40:59.642 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_dbName]]
+17:40:59.652 INFO - Executing: [find elements: By.cssSelector: #sysadmin_connectToDBState])
+17:40:59.670 INFO - Done: [find elements: By.cssSelector: #sysadmin_connectToDBState]
+17:40:59.677 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_connectToDBState]])
+17:40:59.744 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_connectToDBState]]
+17:40:59.754 INFO - Executing: [find elements: By.cssSelector: #sysadmin_ConnUserName])
+17:40:59.777 INFO - Done: [find elements: By.cssSelector: #sysadmin_ConnUserName]
+17:40:59.784 INFO - Executing: [is displayed: 4 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_ConnUserName]])
+17:40:59.856 INFO - Done: [is displayed: 4 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_ConnUserName]]
+17:40:59.879 INFO - Executing: [find element: By.cssSelector: #sysadmin_app_mode])
+17:40:59.903 INFO - Done: [find element: By.cssSelector: #sysadmin_app_mode]
+17:40:59.910 INFO - Executing: [get text: 0 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_mode]])
+17:40:59.950 INFO - Done: [get text: 0 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_mode]]
+17:40:59.960 INFO - Executing: [find element: By.cssSelector: #sysadmin_app_port])
+17:40:59.977 INFO - Done: [find element: By.cssSelector: #sysadmin_app_port]
+17:40:59.987 INFO - Executing: [get text: 1 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_port]])
+17:41:00.020 INFO - Done: [get text: 1 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_port]]
+17:41:00.031 INFO - Executing: [find element: By.cssSelector: #sysadmin_dbName])
+17:41:00.046 INFO - Done: [find element: By.cssSelector: #sysadmin_dbName]
+17:41:00.051 INFO - Executing: [get text: 2 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_dbName]])
+17:41:00.082 INFO - Done: [get text: 2 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_dbName]]
+17:41:00.090 INFO - Executing: [find element: By.cssSelector: #sysadmin_connectToDBState])
+17:41:00.108 INFO - Done: [find element: By.cssSelector: #sysadmin_connectToDBState]
+17:41:00.119 INFO - Executing: [get text: 3 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_connectToDBState]])
+17:41:00.159 INFO - Done: [get text: 3 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_connectToDBState]]
+17:41:00.168 INFO - Executing: [find element: By.cssSelector: #sysadmin_ConnUserName])
+17:41:00.182 INFO - Done: [find element: By.cssSelector: #sysadmin_ConnUserName]
+17:41:00.196 INFO - Executing: [get text: 4 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_ConnUserName]])
+17:41:00.232 INFO - Done: [get text: 4 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_ConnUserName]]
+17:41:00.240 INFO - Executing: [find element: By.cssSelector: #display_startup_params])
+17:41:00.261 INFO - Done: [find element: By.cssSelector: #display_startup_params]
+17:41:00.267 INFO - Executing: [click: 5 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #display_startup_params]])
+17:41:00.362 INFO - Done: [click: 5 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #display_startup_params]]
+17:41:01.374 INFO - Executing: [find element: By.cssSelector: body])
+17:41:01.391 INFO - Done: [find element: By.cssSelector: body]
+17:41:01.397 INFO - Executing: [get text: 6 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: body]])
+17:41:01.819 INFO - Done: [get text: 6 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: body]]
+17:41:01.829 INFO - Executing: [find element: By.cssSelector: body])
+17:41:01.841 INFO - Done: [find element: By.cssSelector: body]
+17:41:01.851 INFO - Executing: [get text: 6 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: body]])
+17:41:02.282 INFO - Done: [get text: 6 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: body]]
+17:41:02.295 INFO - Executing: [find elements: By.cssSelector: label[for="db.server"]])
+17:41:02.308 INFO - Done: [find elements: By.cssSelector: label[for="db.server"]]
+17:41:02.316 INFO - Executing: [find elements: By.cssSelector: label[for="db.port"]])
+17:41:02.330 INFO - Done: [find elements: By.cssSelector: label[for="db.port"]]
+17:41:02.337 INFO - Executing: [find elements: By.cssSelector: label[for="db.name"]])
+17:41:02.351 INFO - Done: [find elements: By.cssSelector: label[for="db.name"]]
+17:41:02.358 INFO - Executing: [find elements: By.cssSelector: label[for="db.user"]])
+17:41:02.376 INFO - Done: [find elements: By.cssSelector: label[for="db.user"]]
+17:41:02.384 INFO - Executing: [find elements: By.cssSelector: label[for="db.password"]])
+17:41:02.396 INFO - Done: [find elements: By.cssSelector: label[for="db.password"]]
+17:41:02.402 INFO - Executing: [find elements: By.cssSelector: label[for="reports.config"]])
+17:41:02.416 INFO - Done: [find elements: By.cssSelector: label[for="reports.config"]]
+17:41:02.423 INFO - Executing: [find element: By.cssSelector: input[id="db.server"]])
+17:41:02.435 INFO - Done: [find element: By.cssSelector: input[id="db.server"]]
+17:41:02.441 INFO - Executing: [get element attribute: 13 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.server"]], value])
+17:41:02.483 INFO - Done: [get element attribute: 13 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.server"]], value]
+17:41:02.492 INFO - Executing: [find element: By.cssSelector: input[id="db.port"]])
+17:41:02.508 INFO - Done: [find element: By.cssSelector: input[id="db.port"]]
+17:41:02.515 INFO - Executing: [get element attribute: 14 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.port"]], value])
+17:41:02.550 INFO - Done: [get element attribute: 14 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.port"]], value]
+17:41:02.557 INFO - Executing: [find element: By.cssSelector: input[id="db.name"]])
+17:41:02.571 INFO - Done: [find element: By.cssSelector: input[id="db.name"]]
+17:41:02.579 INFO - Executing: [get element attribute: 15 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.name"]], value])
+17:41:02.610 INFO - Done: [get element attribute: 15 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.name"]], value]
+17:41:02.617 INFO - Executing: [find element: By.cssSelector: input[id="db.user"]])
+17:41:02.630 INFO - Done: [find element: By.cssSelector: input[id="db.user"]]
+17:41:02.637 INFO - Executing: [get element attribute: 16 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.user"]], value])
+17:41:02.676 INFO - Done: [get element attribute: 16 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.user"]], value]
+17:41:02.683 INFO - Executing: [find element: By.cssSelector: input[id="db.password"]])
+17:41:02.699 INFO - Done: [find element: By.cssSelector: input[id="db.password"]]
+17:41:02.709 INFO - Executing: [get element attribute: 17 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.password"]], value])
+17:41:02.739 INFO - Done: [get element attribute: 17 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.password"]], value]
+17:41:02.746 INFO - Executing: [find element: By.cssSelector: input[id="reports.config"]])
+17:41:02.760 INFO - Done: [find element: By.cssSelector: input[id="reports.config"]]
+17:41:02.765 INFO - Executing: [get element attribute: 18 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="reports.config"]], value])
+17:41:02.802 INFO - Done: [get element attribute: 18 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="reports.config"]], value]
+17:41:02.811 INFO - Executing: [delete session: 75f86ed7-9383-4140-9748-b82dc5327a21])
+1496846462818	Marionette	INFO	New connections will no longer be accepted
+17:41:03.143 INFO - Done: [delete session: 75f86ed7-9383-4140-9748-b82dc5327a21]

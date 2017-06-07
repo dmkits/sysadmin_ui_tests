@@ -5,9 +5,57 @@
 
   <testsuite name="sysadminTest"
     errors="0" failures="0" hostname="" id="" package="sysadminTest" skipped="0"
-    tests="1" time="9.826" timestamp="Fri, 02 Jun 2017 11:41:33 GMT">
+    tests="1" time="12.88" timestamp="Wed, 07 Jun 2017 14:40:50 GMT">
   
-    <testcase name="Open browser" classname="sysadminTest" time="9.826" assertions="1">
+    <testcase name="Open browser" classname="sysadminTest" time="12.88" assertions="25">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
     </testcase>
