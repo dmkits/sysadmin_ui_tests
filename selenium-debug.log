@@ -1,124 +1,536 @@
-17:40:49.889 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-17:40:49.890 INFO - Launching a standalone Selenium Server
-2017-06-07 17:40:49.917:INFO::main: Logging initialized @394ms to org.seleniumhq.jetty9.util.log.StdErrLog
-17:40:49.990 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+18:51:01.475 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+18:51:01.476 INFO - Launching a standalone Selenium Server
+2017-06-08 18:51:01.502:INFO::main: Logging initialized @422ms to org.seleniumhq.jetty9.util.log.StdErrLog
+18:51:01.574 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-17:40:49.991 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+18:51:01.574 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-17:40:49.991 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-17:40:49.991 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+18:51:01.574 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+18:51:01.575 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-17:40:49.992 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-17:40:49.992 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-17:40:49.993 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+18:51:01.575 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+18:51:01.575 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+18:51:01.577 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-2017-06-07 17:40:50.060:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-06-07 17:40:50.117:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@3e6fa38a{/,null,AVAILABLE}
-2017-06-07 17:40:50.148:INFO:osjs.AbstractConnector:main: Started ServerConnector@6500df86{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-06-07 17:40:50.150:INFO:osjs.Server:main: Started @627ms
-17:40:50.150 INFO - Selenium Server is up and running
-17:40:50.594 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-17:40:50.642 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Sysadmin Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
-17:40:50.676 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Sysadmin Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]
-1496846451201	geckodriver	INFO	Listening on 127.0.0.1:14531
-1496846451405	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ZwwhzwXye65a
-1496846451406	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox with args []
-1496846451408	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40011
-1496846456941	Marionette	INFO	Listening on port 40011
-17:40:57.758 INFO - Detected dialect: W3C
-17:40:57.807 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Sysadmin Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
-17:40:57.857 INFO - Executing: [get: http://localhost:8080/sysadmin])
-17:40:59.129 INFO - Done: [get: http://localhost:8080/sysadmin]
-17:40:59.145 INFO - Executing: [get title])
-17:40:59.166 INFO - Done: [get title]
-17:40:59.185 INFO - Executing: [find elements: By.cssSelector: #sysadmin_app_mode])
-17:40:59.261 INFO - Done: [find elements: By.cssSelector: #sysadmin_app_mode]
-17:40:59.271 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_mode]])
-17:40:59.409 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_mode]]
-17:40:59.420 INFO - Executing: [find elements: By.cssSelector: #sysadmin_app_port])
-17:40:59.445 INFO - Done: [find elements: By.cssSelector: #sysadmin_app_port]
-17:40:59.452 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_port]])
-17:40:59.538 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_port]]
-17:40:59.548 INFO - Executing: [find elements: By.cssSelector: #sysadmin_dbName])
-17:40:59.569 INFO - Done: [find elements: By.cssSelector: #sysadmin_dbName]
-17:40:59.576 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_dbName]])
-17:40:59.642 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_dbName]]
-17:40:59.652 INFO - Executing: [find elements: By.cssSelector: #sysadmin_connectToDBState])
-17:40:59.670 INFO - Done: [find elements: By.cssSelector: #sysadmin_connectToDBState]
-17:40:59.677 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_connectToDBState]])
-17:40:59.744 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_connectToDBState]]
-17:40:59.754 INFO - Executing: [find elements: By.cssSelector: #sysadmin_ConnUserName])
-17:40:59.777 INFO - Done: [find elements: By.cssSelector: #sysadmin_ConnUserName]
-17:40:59.784 INFO - Executing: [is displayed: 4 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_ConnUserName]])
-17:40:59.856 INFO - Done: [is displayed: 4 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_ConnUserName]]
-17:40:59.879 INFO - Executing: [find element: By.cssSelector: #sysadmin_app_mode])
-17:40:59.903 INFO - Done: [find element: By.cssSelector: #sysadmin_app_mode]
-17:40:59.910 INFO - Executing: [get text: 0 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_mode]])
-17:40:59.950 INFO - Done: [get text: 0 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_mode]]
-17:40:59.960 INFO - Executing: [find element: By.cssSelector: #sysadmin_app_port])
-17:40:59.977 INFO - Done: [find element: By.cssSelector: #sysadmin_app_port]
-17:40:59.987 INFO - Executing: [get text: 1 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_port]])
-17:41:00.020 INFO - Done: [get text: 1 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_app_port]]
-17:41:00.031 INFO - Executing: [find element: By.cssSelector: #sysadmin_dbName])
-17:41:00.046 INFO - Done: [find element: By.cssSelector: #sysadmin_dbName]
-17:41:00.051 INFO - Executing: [get text: 2 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_dbName]])
-17:41:00.082 INFO - Done: [get text: 2 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_dbName]]
-17:41:00.090 INFO - Executing: [find element: By.cssSelector: #sysadmin_connectToDBState])
-17:41:00.108 INFO - Done: [find element: By.cssSelector: #sysadmin_connectToDBState]
-17:41:00.119 INFO - Executing: [get text: 3 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_connectToDBState]])
-17:41:00.159 INFO - Done: [get text: 3 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_connectToDBState]]
-17:41:00.168 INFO - Executing: [find element: By.cssSelector: #sysadmin_ConnUserName])
-17:41:00.182 INFO - Done: [find element: By.cssSelector: #sysadmin_ConnUserName]
-17:41:00.196 INFO - Executing: [get text: 4 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_ConnUserName]])
-17:41:00.232 INFO - Done: [get text: 4 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #sysadmin_ConnUserName]]
-17:41:00.240 INFO - Executing: [find element: By.cssSelector: #display_startup_params])
-17:41:00.261 INFO - Done: [find element: By.cssSelector: #display_startup_params]
-17:41:00.267 INFO - Executing: [click: 5 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #display_startup_params]])
-17:41:00.362 INFO - Done: [click: 5 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: #display_startup_params]]
-17:41:01.374 INFO - Executing: [find element: By.cssSelector: body])
-17:41:01.391 INFO - Done: [find element: By.cssSelector: body]
-17:41:01.397 INFO - Executing: [get text: 6 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: body]])
-17:41:01.819 INFO - Done: [get text: 6 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: body]]
-17:41:01.829 INFO - Executing: [find element: By.cssSelector: body])
-17:41:01.841 INFO - Done: [find element: By.cssSelector: body]
-17:41:01.851 INFO - Executing: [get text: 6 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: body]])
-17:41:02.282 INFO - Done: [get text: 6 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: body]]
-17:41:02.295 INFO - Executing: [find elements: By.cssSelector: label[for="db.server"]])
-17:41:02.308 INFO - Done: [find elements: By.cssSelector: label[for="db.server"]]
-17:41:02.316 INFO - Executing: [find elements: By.cssSelector: label[for="db.port"]])
-17:41:02.330 INFO - Done: [find elements: By.cssSelector: label[for="db.port"]]
-17:41:02.337 INFO - Executing: [find elements: By.cssSelector: label[for="db.name"]])
-17:41:02.351 INFO - Done: [find elements: By.cssSelector: label[for="db.name"]]
-17:41:02.358 INFO - Executing: [find elements: By.cssSelector: label[for="db.user"]])
-17:41:02.376 INFO - Done: [find elements: By.cssSelector: label[for="db.user"]]
-17:41:02.384 INFO - Executing: [find elements: By.cssSelector: label[for="db.password"]])
-17:41:02.396 INFO - Done: [find elements: By.cssSelector: label[for="db.password"]]
-17:41:02.402 INFO - Executing: [find elements: By.cssSelector: label[for="reports.config"]])
-17:41:02.416 INFO - Done: [find elements: By.cssSelector: label[for="reports.config"]]
-17:41:02.423 INFO - Executing: [find element: By.cssSelector: input[id="db.server"]])
-17:41:02.435 INFO - Done: [find element: By.cssSelector: input[id="db.server"]]
-17:41:02.441 INFO - Executing: [get element attribute: 13 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.server"]], value])
-17:41:02.483 INFO - Done: [get element attribute: 13 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.server"]], value]
-17:41:02.492 INFO - Executing: [find element: By.cssSelector: input[id="db.port"]])
-17:41:02.508 INFO - Done: [find element: By.cssSelector: input[id="db.port"]]
-17:41:02.515 INFO - Executing: [get element attribute: 14 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.port"]], value])
-17:41:02.550 INFO - Done: [get element attribute: 14 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.port"]], value]
-17:41:02.557 INFO - Executing: [find element: By.cssSelector: input[id="db.name"]])
-17:41:02.571 INFO - Done: [find element: By.cssSelector: input[id="db.name"]]
-17:41:02.579 INFO - Executing: [get element attribute: 15 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.name"]], value])
-17:41:02.610 INFO - Done: [get element attribute: 15 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.name"]], value]
-17:41:02.617 INFO - Executing: [find element: By.cssSelector: input[id="db.user"]])
-17:41:02.630 INFO - Done: [find element: By.cssSelector: input[id="db.user"]]
-17:41:02.637 INFO - Executing: [get element attribute: 16 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.user"]], value])
-17:41:02.676 INFO - Done: [get element attribute: 16 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.user"]], value]
-17:41:02.683 INFO - Executing: [find element: By.cssSelector: input[id="db.password"]])
-17:41:02.699 INFO - Done: [find element: By.cssSelector: input[id="db.password"]]
-17:41:02.709 INFO - Executing: [get element attribute: 17 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.password"]], value])
-17:41:02.739 INFO - Done: [get element attribute: 17 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="db.password"]], value]
-17:41:02.746 INFO - Executing: [find element: By.cssSelector: input[id="reports.config"]])
-17:41:02.760 INFO - Done: [find element: By.cssSelector: input[id="reports.config"]]
-17:41:02.765 INFO - Executing: [get element attribute: 18 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="reports.config"]], value])
-17:41:02.802 INFO - Done: [get element attribute: 18 [[FirefoxDriver: firefox on ANY (5ffa5ad4-2371-4134-be58-423086bdbefd)] -> css selector: input[id="reports.config"]], value]
-17:41:02.811 INFO - Executing: [delete session: 75f86ed7-9383-4140-9748-b82dc5327a21])
-1496846462818	Marionette	INFO	New connections will no longer be accepted
-17:41:03.143 INFO - Done: [delete session: 75f86ed7-9383-4140-9748-b82dc5327a21]
+2017-06-08 18:51:01.644:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-06-08 18:51:01.698:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@3e6fa38a{/,null,AVAILABLE}
+2017-06-08 18:51:01.738:INFO:osjs.AbstractConnector:main: Started ServerConnector@393c0317{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-06-08 18:51:01.740:INFO:osjs.Server:main: Started @660ms
+18:51:01.740 INFO - Selenium Server is up and running
+18:51:02.173 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+18:51:02.214 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Tests, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+18:51:02.247 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Page Object Tests, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.29.461571 (8a88bbe0775e2a23afda0ceaf2ef7ee74e822cc5) on port 6694
+Only local connections are allowed.
+18:51:03.659 INFO - Detected dialect: OSS
+18:51:03.711 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Tests, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+18:51:03.747 INFO - Executing: [get: http://localhost:8080/sysadmin])
+18:51:05.612 INFO - Done: [get: http://localhost:8080/sysadmin]
+18:51:05.629 INFO - Executing: [find elements: By.cssSelector: body])
+18:51:05.709 INFO - Done: [find elements: By.cssSelector: body]
+18:51:05.718 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: body]])
+18:51:05.766 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: body]]
+18:51:05.783 INFO - Executing: [find element: By.cssSelector: #sysadmin_TopImg])
+18:51:05.832 INFO - Done: [find element: By.cssSelector: #sysadmin_TopImg]
+18:51:05.840 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_TopImg]])
+18:51:05.886 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_TopImg]]
+18:51:05.901 INFO - Executing: [get title])
+18:51:05.914 INFO - Done: [get title]
+18:51:05.926 INFO - Executing: [find element: By.cssSelector: #sysadmin_app_mode])
+18:51:05.976 INFO - Done: [find element: By.cssSelector: #sysadmin_app_mode]
+18:51:05.983 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_app_mode]])
+18:51:06.034 INFO - Done: [get text: 2 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_app_mode]]
+18:51:06.047 INFO - Executing: [find element: By.cssSelector: #sysadmin_app_port])
+18:51:06.092 INFO - Done: [find element: By.cssSelector: #sysadmin_app_port]
+18:51:06.097 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_app_port]])
+18:51:06.148 INFO - Done: [get text: 3 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_app_port]]
+18:51:06.157 INFO - Executing: [find element: By.cssSelector: #sysadmin_dbName])
+18:51:06.203 INFO - Done: [find element: By.cssSelector: #sysadmin_dbName]
+18:51:06.215 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_dbName]])
+18:51:06.267 INFO - Done: [get text: 4 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_dbName]]
+18:51:06.276 INFO - Executing: [find element: By.cssSelector: #sysadmin_connectToDBState])
+18:51:06.322 INFO - Done: [find element: By.cssSelector: #sysadmin_connectToDBState]
+18:51:06.328 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]])
+18:51:06.379 INFO - Done: [get text: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]]
+18:51:06.390 INFO - Executing: [find element: By.cssSelector: #sysadmin_ConnUserName])
+18:51:06.436 INFO - Done: [find element: By.cssSelector: #sysadmin_ConnUserName]
+18:51:06.444 INFO - Executing: [get text: 6 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_ConnUserName]])
+18:51:06.499 INFO - Done: [get text: 6 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_ConnUserName]]
+18:51:06.508 INFO - Executing: [find element: By.cssSelector: #display_startup_params])
+18:51:06.553 INFO - Done: [find element: By.cssSelector: #display_startup_params]
+18:51:06.560 INFO - Executing: [is displayed: 7 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #display_startup_params]])
+18:51:06.605 INFO - Done: [is displayed: 7 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #display_startup_params]]
+18:51:06.612 INFO - Executing: [find element: By.cssSelector: #display_reports_config])
+18:51:06.657 INFO - Done: [find element: By.cssSelector: #display_reports_config]
+18:51:06.662 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #display_reports_config]])
+18:51:06.708 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #display_reports_config]]
+18:51:06.718 INFO - Executing: [find element: By.cssSelector: #display_startup_params])
+18:51:06.738 INFO - Done: [find element: By.cssSelector: #display_startup_params]
+18:51:06.745 INFO - Executing: [click: 7 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #display_startup_params]])
+18:51:06.906 INFO - Done: [click: 7 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #display_startup_params]]
+18:51:07.006 INFO - Executing: [find elements: By.cssSelector: #sa_startup_params_appLocalConfig])
+18:51:07.078 INFO - Done: [find elements: By.cssSelector: #sa_startup_params_appLocalConfig]
+18:51:07.085 INFO - Executing: [is displayed: 9 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sa_startup_params_appLocalConfig]])
+18:51:07.141 INFO - Done: [is displayed: 9 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sa_startup_params_appLocalConfig]]
+18:51:09.157 INFO - Executing: [find element: By.cssSelector: #sa_startup_params_appLocalConfig])
+18:51:09.206 INFO - Done: [find element: By.cssSelector: #sa_startup_params_appLocalConfig]
+18:51:09.212 INFO - Executing: [get text: 9 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sa_startup_params_appLocalConfig]])
+18:51:09.267 INFO - Done: [get text: 9 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sa_startup_params_appLocalConfig]]
+18:51:09.277 INFO - Executing: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigLoad])
+18:51:09.324 INFO - Done: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigLoad]
+18:51:09.330 INFO - Executing: [click: 10 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigLoad]])
+18:51:09.462 INFO - Done: [click: 10 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigLoad]]
+18:51:14.478 INFO - Executing: [find element: By.cssSelector: #sa_startup_params_appLocalConfig])
+18:51:14.498 INFO - Done: [find element: By.cssSelector: #sa_startup_params_appLocalConfig]
+18:51:14.504 INFO - Executing: [get text: 9 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sa_startup_params_appLocalConfig]])
+18:51:14.536 INFO - Done: [get text: 9 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sa_startup_params_appLocalConfig]]
+18:51:14.545 INFO - Executing: [find elements: By.cssSelector: input[id="db.server"]])
+18:51:14.599 INFO - Done: [find elements: By.cssSelector: input[id="db.server"]]
+18:51:14.605 INFO - Executing: [is displayed: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]])
+18:51:14.648 INFO - Done: [is displayed: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]]
+18:51:14.656 INFO - Executing: [find element: By.cssSelector: input[id="db.server"]])
+18:51:14.720 INFO - Done: [find element: By.cssSelector: input[id="db.server"]]
+18:51:14.727 INFO - Executing: [clear: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]])
+18:51:14.790 INFO - Done: [clear: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]]
+18:51:14.800 INFO - Executing: [find element: By.cssSelector: input[id="db.server"]])
+18:51:14.818 INFO - Done: [find element: By.cssSelector: input[id="db.server"]]
+18:51:14.828 INFO - Executing: [send keys: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]], [1, 9, 2, ., 1, 6, 8, ., 0, ., 9, 3, _, f, a, l, s, e]])
+18:51:15.026 INFO - Done: [send keys: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]], [1, 9, 2, ., 1, 6, 8, ., 0, ., 9, 3, _, f, a, l, s, e]]
+18:51:15.045 INFO - Executing: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect])
+18:51:15.089 INFO - Done: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]
+18:51:15.094 INFO - Executing: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]])
+18:51:15.225 INFO - Done: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]]
+18:51:21.242 INFO - Executing: [find element: By.cssSelector: #sa_startup_params_appLocalConfig])
+18:51:21.264 INFO - Done: [find element: By.cssSelector: #sa_startup_params_appLocalConfig]
+18:51:21.269 INFO - Executing: [get text: 9 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sa_startup_params_appLocalConfig]])
+18:51:21.308 INFO - Done: [get text: 9 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sa_startup_params_appLocalConfig]]
+18:51:21.316 INFO - Executing: [find element: By.cssSelector: #sa_startup_params_appLocalConfig])
+18:51:21.336 INFO - Done: [find element: By.cssSelector: #sa_startup_params_appLocalConfig]
+18:51:21.342 INFO - Executing: [get text: 9 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sa_startup_params_appLocalConfig]])
+18:51:21.369 INFO - Done: [get text: 9 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sa_startup_params_appLocalConfig]]
+18:51:21.376 INFO - Executing: [find elements: By.cssSelector: #sysadmin_connectToDBState])
+18:51:21.431 INFO - Done: [find elements: By.cssSelector: #sysadmin_connectToDBState]
+18:51:21.438 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]])
+18:51:21.483 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]]
+18:51:21.490 INFO - Executing: [find element: By.cssSelector: #sysadmin_connectToDBState])
+18:51:21.548 INFO - Done: [find element: By.cssSelector: #sysadmin_connectToDBState]
+18:51:21.553 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]])
+18:51:21.602 INFO - Done: [get text: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]]
+18:51:22.612 INFO - Executing: [find elements: By.cssSelector: input[id="db.server"]])
+18:51:22.632 INFO - Done: [find elements: By.cssSelector: input[id="db.server"]]
+18:51:22.637 INFO - Executing: [is displayed: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]])
+18:51:22.665 INFO - Done: [is displayed: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]]
+18:51:22.671 INFO - Executing: [find elements: By.cssSelector: input[id="db.port"]])
+18:51:22.717 INFO - Done: [find elements: By.cssSelector: input[id="db.port"]]
+18:51:22.722 INFO - Executing: [is displayed: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]])
+18:51:22.767 INFO - Done: [is displayed: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]]
+18:51:22.779 INFO - Executing: [find elements: By.cssSelector: input[id="db.name"]])
+18:51:22.822 INFO - Done: [find elements: By.cssSelector: input[id="db.name"]]
+18:51:22.828 INFO - Executing: [is displayed: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]])
+18:51:22.873 INFO - Done: [is displayed: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]]
+18:51:22.880 INFO - Executing: [find elements: By.cssSelector: input[id="db.user"]])
+18:51:22.925 INFO - Done: [find elements: By.cssSelector: input[id="db.user"]]
+18:51:22.931 INFO - Executing: [is displayed: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]])
+18:51:22.975 INFO - Done: [is displayed: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]]
+18:51:22.982 INFO - Executing: [find elements: By.cssSelector: input[id="db.password"]])
+18:51:23.028 INFO - Done: [find elements: By.cssSelector: input[id="db.password"]]
+18:51:23.033 INFO - Executing: [is displayed: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]])
+18:51:23.077 INFO - Done: [is displayed: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]]
+18:51:23.084 INFO - Executing: [find elements: By.cssSelector: input[id="reports.config"]])
+18:51:23.144 INFO - Done: [find elements: By.cssSelector: input[id="reports.config"]]
+18:51:23.149 INFO - Executing: [is displayed: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]])
+18:51:23.192 INFO - Done: [is displayed: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]]
+18:51:23.199 INFO - Executing: [find element: By.cssSelector: input[id="db.server"]])
+18:51:23.219 INFO - Done: [find element: By.cssSelector: input[id="db.server"]]
+18:51:23.243 INFO - Executing: [clear: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]])
+18:51:23.271 INFO - Done: [clear: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]]
+18:51:23.287 INFO - Executing: [find element: By.cssSelector: input[id="db.server"]])
+18:51:23.304 INFO - Done: [find element: By.cssSelector: input[id="db.server"]]
+18:51:23.315 INFO - Executing: [send keys: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]], [1, 9, 2, ., 1, 6, 8, ., 0, ., 9, 3]])
+18:51:23.430 INFO - Done: [send keys: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]], [1, 9, 2, ., 1, 6, 8, ., 0, ., 9, 3]]
+18:51:23.443 INFO - Executing: [find element: By.cssSelector: input[id="db.port"]])
+18:51:23.488 INFO - Done: [find element: By.cssSelector: input[id="db.port"]]
+18:51:23.499 INFO - Executing: [clear: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]])
+18:51:23.558 INFO - Done: [clear: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]]
+18:51:23.574 INFO - Executing: [find element: By.cssSelector: input[id="db.port"]])
+18:51:23.594 INFO - Done: [find element: By.cssSelector: input[id="db.port"]]
+18:51:23.600 INFO - Executing: [send keys: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]], [1, 4, 3, 3]])
+18:51:23.715 INFO - Done: [send keys: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]], [1, 4, 3, 3]]
+18:51:23.727 INFO - Executing: [find element: By.cssSelector: input[id="db.name"]])
+18:51:23.772 INFO - Done: [find element: By.cssSelector: input[id="db.name"]]
+18:51:23.778 INFO - Executing: [clear: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]])
+18:51:23.836 INFO - Done: [clear: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]]
+18:51:23.842 INFO - Executing: [find element: By.cssSelector: input[id="db.name"]])
+18:51:23.861 INFO - Done: [find element: By.cssSelector: input[id="db.name"]]
+18:51:23.868 INFO - Executing: [send keys: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]], [G, M, S, S, a, m, p, l, e, 3, 8, x, m, l]])
+18:51:24.061 INFO - Done: [send keys: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]], [G, M, S, S, a, m, p, l, e, 3, 8, x, m, l]]
+18:51:24.068 INFO - Executing: [find element: By.cssSelector: input[id="db.user"]])
+18:51:24.112 INFO - Done: [find element: By.cssSelector: input[id="db.user"]]
+18:51:24.116 INFO - Executing: [clear: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]])
+18:51:24.171 INFO - Done: [clear: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]]
+18:51:24.178 INFO - Executing: [find element: By.cssSelector: input[id="db.user"]])
+18:51:24.196 INFO - Done: [find element: By.cssSelector: input[id="db.user"]]
+18:51:24.202 INFO - Executing: [send keys: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]], [s, a]])
+18:51:24.307 INFO - Done: [send keys: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]], [s, a]]
+18:51:24.313 INFO - Executing: [find element: By.cssSelector: input[id="db.password"]])
+18:51:24.359 INFO - Done: [find element: By.cssSelector: input[id="db.password"]]
+18:51:24.364 INFO - Executing: [clear: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]])
+18:51:24.422 INFO - Done: [clear: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]]
+18:51:24.431 INFO - Executing: [find element: By.cssSelector: input[id="db.password"]])
+18:51:24.450 INFO - Done: [find element: By.cssSelector: input[id="db.password"]]
+18:51:24.461 INFO - Executing: [send keys: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]], [G, M, S, g, m, s, 1, 2, 3]])
+18:51:24.609 INFO - Done: [send keys: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]], [G, M, S, g, m, s, 1, 2, 3]]
+18:51:24.616 INFO - Executing: [find element: By.cssSelector: input[id="reports.config"]])
+18:51:24.663 INFO - Done: [find element: By.cssSelector: input[id="reports.config"]]
+18:51:24.669 INFO - Executing: [clear: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]])
+18:51:24.722 INFO - Done: [clear: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]]
+18:51:24.729 INFO - Executing: [find element: By.cssSelector: input[id="reports.config"]])
+18:51:24.752 INFO - Done: [find element: By.cssSelector: input[id="reports.config"]]
+18:51:24.759 INFO - Executing: [send keys: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]], []])
+18:51:24.862 INFO - Done: [send keys: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]], []]
+18:51:24.867 INFO - Executing: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect])
+18:51:24.888 INFO - Done: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]
+18:51:24.899 INFO - Executing: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]])
+18:51:24.991 INFO - Done: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]]
+18:51:25.003 INFO - Executing: [find elements: By.cssSelector: input[id="db.name"]])
+18:51:25.037 INFO - Done: [find elements: By.cssSelector: input[id="db.name"]]
+18:51:25.043 INFO - Executing: [is displayed: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]])
+18:51:25.061 INFO - Done: [is displayed: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]]
+18:51:25.068 INFO - Executing: [find element: By.cssSelector: input[id="db.name"]])
+18:51:25.087 INFO - Done: [find element: By.cssSelector: input[id="db.name"]]
+18:51:25.093 INFO - Executing: [clear: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]])
+18:51:25.119 INFO - Done: [clear: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]]
+18:51:25.127 INFO - Executing: [find element: By.cssSelector: input[id="db.name"]])
+18:51:25.144 INFO - Done: [find element: By.cssSelector: input[id="db.name"]]
+18:51:25.152 INFO - Executing: [send keys: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]], [G, M, S, S, a, m, p, l, e, 3, 8, x, m, l, _, f, a, l, s, e]])
+18:51:25.317 INFO - Done: [send keys: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]], [G, M, S, S, a, m, p, l, e, 3, 8, x, m, l, _, f, a, l, s, e]]
+18:51:25.339 INFO - Executing: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect])
+18:51:25.359 INFO - Done: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]
+18:51:25.365 INFO - Executing: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]])
+18:51:25.447 INFO - Done: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]]
+18:51:26.463 INFO - Executing: [find element: By.cssSelector: #sa_startup_params_appLocalConfig])
+18:51:26.485 INFO - Done: [find element: By.cssSelector: #sa_startup_params_appLocalConfig]
+18:51:26.490 INFO - Executing: [get text: 9 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sa_startup_params_appLocalConfig]])
+18:51:26.523 INFO - Done: [get text: 9 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sa_startup_params_appLocalConfig]]
+18:51:26.531 INFO - Executing: [find element: By.cssSelector: #sa_startup_params_appLocalConfig])
+18:51:26.549 INFO - Done: [find element: By.cssSelector: #sa_startup_params_appLocalConfig]
+18:51:26.554 INFO - Executing: [get text: 9 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sa_startup_params_appLocalConfig]])
+18:51:26.579 INFO - Done: [get text: 9 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sa_startup_params_appLocalConfig]]
+18:51:26.589 INFO - Executing: [find elements: By.cssSelector: #sysadmin_dbName])
+18:51:26.632 INFO - Done: [find elements: By.cssSelector: #sysadmin_dbName]
+18:51:26.636 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_dbName]])
+18:51:26.675 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_dbName]]
+18:51:26.683 INFO - Executing: [find element: By.cssSelector: #sysadmin_dbName])
+18:51:26.727 INFO - Done: [find element: By.cssSelector: #sysadmin_dbName]
+18:51:26.732 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_dbName]])
+18:51:26.784 INFO - Done: [get text: 4 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_dbName]]
+18:51:26.793 INFO - Executing: [find elements: By.cssSelector: #sysadmin_connectToDBState])
+18:51:26.810 INFO - Done: [find elements: By.cssSelector: #sysadmin_connectToDBState]
+18:51:26.818 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]])
+18:51:26.834 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]]
+18:51:26.842 INFO - Executing: [find element: By.cssSelector: #sysadmin_connectToDBState])
+18:51:26.860 INFO - Done: [find element: By.cssSelector: #sysadmin_connectToDBState]
+18:51:26.865 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]])
+18:51:26.883 INFO - Done: [get text: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]]
+18:51:27.891 INFO - Executing: [find elements: By.cssSelector: input[id="db.server"]])
+18:51:27.910 INFO - Done: [find elements: By.cssSelector: input[id="db.server"]]
+18:51:27.915 INFO - Executing: [is displayed: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]])
+18:51:27.933 INFO - Done: [is displayed: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]]
+18:51:27.939 INFO - Executing: [find elements: By.cssSelector: input[id="db.port"]])
+18:51:27.958 INFO - Done: [find elements: By.cssSelector: input[id="db.port"]]
+18:51:27.963 INFO - Executing: [is displayed: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]])
+18:51:27.984 INFO - Done: [is displayed: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]]
+18:51:27.991 INFO - Executing: [find elements: By.cssSelector: input[id="db.name"]])
+18:51:28.012 INFO - Done: [find elements: By.cssSelector: input[id="db.name"]]
+18:51:28.017 INFO - Executing: [is displayed: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]])
+18:51:28.039 INFO - Done: [is displayed: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]]
+18:51:28.052 INFO - Executing: [find elements: By.cssSelector: input[id="db.user"]])
+18:51:28.073 INFO - Done: [find elements: By.cssSelector: input[id="db.user"]]
+18:51:28.077 INFO - Executing: [is displayed: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]])
+18:51:28.098 INFO - Done: [is displayed: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]]
+18:51:28.105 INFO - Executing: [find elements: By.cssSelector: input[id="db.password"]])
+18:51:28.123 INFO - Done: [find elements: By.cssSelector: input[id="db.password"]]
+18:51:28.128 INFO - Executing: [is displayed: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]])
+18:51:28.147 INFO - Done: [is displayed: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]]
+18:51:28.152 INFO - Executing: [find elements: By.cssSelector: input[id="reports.config"]])
+18:51:28.169 INFO - Done: [find elements: By.cssSelector: input[id="reports.config"]]
+18:51:28.174 INFO - Executing: [is displayed: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]])
+18:51:28.190 INFO - Done: [is displayed: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]]
+18:51:28.196 INFO - Executing: [find element: By.cssSelector: input[id="db.server"]])
+18:51:28.216 INFO - Done: [find element: By.cssSelector: input[id="db.server"]]
+18:51:28.220 INFO - Executing: [clear: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]])
+18:51:28.246 INFO - Done: [clear: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]]
+18:51:28.254 INFO - Executing: [find element: By.cssSelector: input[id="db.server"]])
+18:51:28.272 INFO - Done: [find element: By.cssSelector: input[id="db.server"]]
+18:51:28.279 INFO - Executing: [send keys: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]], [1, 9, 2, ., 1, 6, 8, ., 0, ., 9, 3]])
+18:51:28.387 INFO - Done: [send keys: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]], [1, 9, 2, ., 1, 6, 8, ., 0, ., 9, 3]]
+18:51:28.395 INFO - Executing: [find element: By.cssSelector: input[id="db.port"]])
+18:51:28.413 INFO - Done: [find element: By.cssSelector: input[id="db.port"]]
+18:51:28.418 INFO - Executing: [clear: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]])
+18:51:28.448 INFO - Done: [clear: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]]
+18:51:28.456 INFO - Executing: [find element: By.cssSelector: input[id="db.port"]])
+18:51:28.471 INFO - Done: [find element: By.cssSelector: input[id="db.port"]]
+18:51:28.477 INFO - Executing: [send keys: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]], [1, 4, 3, 3]])
+18:51:28.541 INFO - Done: [send keys: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]], [1, 4, 3, 3]]
+18:51:28.547 INFO - Executing: [find element: By.cssSelector: input[id="db.name"]])
+18:51:28.572 INFO - Done: [find element: By.cssSelector: input[id="db.name"]]
+18:51:28.578 INFO - Executing: [clear: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]])
+18:51:28.605 INFO - Done: [clear: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]]
+18:51:28.617 INFO - Executing: [find element: By.cssSelector: input[id="db.name"]])
+18:51:28.636 INFO - Done: [find element: By.cssSelector: input[id="db.name"]]
+18:51:28.647 INFO - Executing: [send keys: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]], [G, M, S, S, a, m, p, l, e, 3, 8, x, m, l]])
+18:51:28.779 INFO - Done: [send keys: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]], [G, M, S, S, a, m, p, l, e, 3, 8, x, m, l]]
+18:51:28.809 INFO - Executing: [find element: By.cssSelector: input[id="db.user"]])
+18:51:28.828 INFO - Done: [find element: By.cssSelector: input[id="db.user"]]
+18:51:28.835 INFO - Executing: [clear: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]])
+18:51:28.864 INFO - Done: [clear: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]]
+18:51:28.888 INFO - Executing: [find element: By.cssSelector: input[id="db.user"]])
+18:51:28.905 INFO - Done: [find element: By.cssSelector: input[id="db.user"]]
+18:51:28.930 INFO - Executing: [send keys: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]], [s, a]])
+18:51:28.977 INFO - Done: [send keys: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]], [s, a]]
+18:51:28.983 INFO - Executing: [find element: By.cssSelector: input[id="db.password"]])
+18:51:29.001 INFO - Done: [find element: By.cssSelector: input[id="db.password"]]
+18:51:29.005 INFO - Executing: [clear: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]])
+18:51:29.040 INFO - Done: [clear: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]]
+18:51:29.046 INFO - Executing: [find element: By.cssSelector: input[id="db.password"]])
+18:51:29.073 INFO - Done: [find element: By.cssSelector: input[id="db.password"]]
+18:51:29.078 INFO - Executing: [send keys: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]], [G, M, S, g, m, s, 1, 2, 3]])
+18:51:29.175 INFO - Done: [send keys: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]], [G, M, S, g, m, s, 1, 2, 3]]
+18:51:29.183 INFO - Executing: [find element: By.cssSelector: input[id="reports.config"]])
+18:51:29.202 INFO - Done: [find element: By.cssSelector: input[id="reports.config"]]
+18:51:29.206 INFO - Executing: [clear: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]])
+18:51:29.238 INFO - Done: [clear: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]]
+18:51:29.244 INFO - Executing: [find element: By.cssSelector: input[id="reports.config"]])
+18:51:29.260 INFO - Done: [find element: By.cssSelector: input[id="reports.config"]]
+18:51:29.266 INFO - Executing: [send keys: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]], []])
+18:51:29.305 INFO - Done: [send keys: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]], []]
+18:51:29.311 INFO - Executing: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect])
+18:51:29.328 INFO - Done: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]
+18:51:29.333 INFO - Executing: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]])
+18:51:29.411 INFO - Done: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]]
+18:51:29.419 INFO - Executing: [find elements: By.cssSelector: input[id="db.user"]])
+18:51:29.458 INFO - Done: [find elements: By.cssSelector: input[id="db.user"]]
+18:51:29.464 INFO - Executing: [is displayed: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]])
+18:51:29.486 INFO - Done: [is displayed: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]]
+18:51:29.490 INFO - Executing: [find element: By.cssSelector: input[id="db.user"]])
+18:51:29.516 INFO - Done: [find element: By.cssSelector: input[id="db.user"]]
+18:51:29.524 INFO - Executing: [clear: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]])
+18:51:29.553 INFO - Done: [clear: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]]
+18:51:29.565 INFO - Executing: [find element: By.cssSelector: input[id="db.user"]])
+18:51:29.588 INFO - Done: [find element: By.cssSelector: input[id="db.user"]]
+18:51:29.592 INFO - Executing: [get element attribute: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]], value])
+18:51:29.608 INFO - Done: [get element attribute: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]], value]
+18:51:29.615 INFO - Executing: [find element: By.cssSelector: input[id="db.user"]])
+18:51:29.639 INFO - Done: [find element: By.cssSelector: input[id="db.user"]]
+18:51:29.649 INFO - Executing: [send keys: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]], [s, a, 1]])
+18:51:29.703 INFO - Done: [send keys: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]], [s, a, 1]]
+18:51:29.725 INFO - Executing: [find element: By.cssSelector: input[id="db.user"]])
+18:51:29.740 INFO - Done: [find element: By.cssSelector: input[id="db.user"]]
+18:51:29.744 INFO - Executing: [get element attribute: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]], value])
+18:51:29.755 INFO - Done: [get element attribute: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]], value]
+18:51:29.760 INFO - Executing: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect])
+18:51:29.779 INFO - Done: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]
+18:51:29.784 INFO - Executing: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]])
+18:51:29.853 INFO - Done: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]]
+18:51:29.860 INFO - Executing: [find elements: By.cssSelector: #sysadmin_ConnUserName])
+18:51:29.911 INFO - Done: [find elements: By.cssSelector: #sysadmin_ConnUserName]
+18:51:29.916 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_ConnUserName]])
+18:51:29.961 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_ConnUserName]]
+18:51:29.969 INFO - Executing: [find element: By.cssSelector: #sysadmin_ConnUserName])
+18:51:30.016 INFO - Done: [find element: By.cssSelector: #sysadmin_ConnUserName]
+18:51:30.020 INFO - Executing: [get text: 6 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_ConnUserName]])
+18:51:30.074 INFO - Done: [get text: 6 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_ConnUserName]]
+18:51:30.080 INFO - Executing: [find elements: By.cssSelector: #sysadmin_connectToDBState])
+18:51:30.098 INFO - Done: [find elements: By.cssSelector: #sysadmin_connectToDBState]
+18:51:30.102 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]])
+18:51:30.118 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]]
+18:51:30.126 INFO - Executing: [find element: By.cssSelector: #sysadmin_connectToDBState])
+18:51:30.151 INFO - Done: [find element: By.cssSelector: #sysadmin_connectToDBState]
+18:51:30.159 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]])
+18:51:30.183 INFO - Done: [get text: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]]
+18:51:31.190 INFO - Executing: [find elements: By.cssSelector: input[id="db.server"]])
+18:51:31.212 INFO - Done: [find elements: By.cssSelector: input[id="db.server"]]
+18:51:31.217 INFO - Executing: [is displayed: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]])
+18:51:31.237 INFO - Done: [is displayed: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]]
+18:51:31.242 INFO - Executing: [find elements: By.cssSelector: input[id="db.port"]])
+18:51:31.257 INFO - Done: [find elements: By.cssSelector: input[id="db.port"]]
+18:51:31.261 INFO - Executing: [is displayed: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]])
+18:51:31.278 INFO - Done: [is displayed: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]]
+18:51:31.285 INFO - Executing: [find elements: By.cssSelector: input[id="db.name"]])
+18:51:31.301 INFO - Done: [find elements: By.cssSelector: input[id="db.name"]]
+18:51:31.308 INFO - Executing: [is displayed: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]])
+18:51:31.323 INFO - Done: [is displayed: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]]
+18:51:31.328 INFO - Executing: [find elements: By.cssSelector: input[id="db.user"]])
+18:51:31.350 INFO - Done: [find elements: By.cssSelector: input[id="db.user"]]
+18:51:31.355 INFO - Executing: [is displayed: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]])
+18:51:31.386 INFO - Done: [is displayed: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]]
+18:51:31.392 INFO - Executing: [find elements: By.cssSelector: input[id="db.password"]])
+18:51:31.410 INFO - Done: [find elements: By.cssSelector: input[id="db.password"]]
+18:51:31.414 INFO - Executing: [is displayed: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]])
+18:51:31.431 INFO - Done: [is displayed: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]]
+18:51:31.437 INFO - Executing: [find elements: By.cssSelector: input[id="reports.config"]])
+18:51:31.456 INFO - Done: [find elements: By.cssSelector: input[id="reports.config"]]
+18:51:31.460 INFO - Executing: [is displayed: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]])
+18:51:31.478 INFO - Done: [is displayed: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]]
+18:51:31.482 INFO - Executing: [find element: By.cssSelector: input[id="db.server"]])
+18:51:31.506 INFO - Done: [find element: By.cssSelector: input[id="db.server"]]
+18:51:31.511 INFO - Executing: [clear: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]])
+18:51:31.540 INFO - Done: [clear: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]]
+18:51:31.548 INFO - Executing: [find element: By.cssSelector: input[id="db.server"]])
+18:51:31.564 INFO - Done: [find element: By.cssSelector: input[id="db.server"]]
+18:51:31.570 INFO - Executing: [send keys: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]], [1, 9, 2, ., 1, 6, 8, ., 0, ., 9, 3]])
+18:51:31.673 INFO - Done: [send keys: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]], [1, 9, 2, ., 1, 6, 8, ., 0, ., 9, 3]]
+18:51:31.681 INFO - Executing: [find element: By.cssSelector: input[id="db.port"]])
+18:51:31.702 INFO - Done: [find element: By.cssSelector: input[id="db.port"]]
+18:51:31.707 INFO - Executing: [clear: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]])
+18:51:31.734 INFO - Done: [clear: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]]
+18:51:31.740 INFO - Executing: [find element: By.cssSelector: input[id="db.port"]])
+18:51:31.761 INFO - Done: [find element: By.cssSelector: input[id="db.port"]]
+18:51:31.766 INFO - Executing: [send keys: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]], [1, 4, 3, 3]])
+18:51:31.833 INFO - Done: [send keys: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]], [1, 4, 3, 3]]
+18:51:31.838 INFO - Executing: [find element: By.cssSelector: input[id="db.name"]])
+18:51:31.856 INFO - Done: [find element: By.cssSelector: input[id="db.name"]]
+18:51:31.860 INFO - Executing: [clear: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]])
+18:51:31.890 INFO - Done: [clear: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]]
+18:51:31.899 INFO - Executing: [find element: By.cssSelector: input[id="db.name"]])
+18:51:31.917 INFO - Done: [find element: By.cssSelector: input[id="db.name"]]
+18:51:31.922 INFO - Executing: [send keys: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]], [G, M, S, S, a, m, p, l, e, 3, 8, x, m, l]])
+18:51:32.050 INFO - Done: [send keys: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]], [G, M, S, S, a, m, p, l, e, 3, 8, x, m, l]]
+18:51:32.054 INFO - Executing: [find element: By.cssSelector: input[id="db.user"]])
+18:51:32.072 INFO - Done: [find element: By.cssSelector: input[id="db.user"]]
+18:51:32.077 INFO - Executing: [clear: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]])
+18:51:32.102 INFO - Done: [clear: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]]
+18:51:32.109 INFO - Executing: [find element: By.cssSelector: input[id="db.user"]])
+18:51:32.131 INFO - Done: [find element: By.cssSelector: input[id="db.user"]]
+18:51:32.136 INFO - Executing: [send keys: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]], [s, a]])
+18:51:32.188 INFO - Done: [send keys: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]], [s, a]]
+18:51:32.194 INFO - Executing: [find element: By.cssSelector: input[id="db.password"]])
+18:51:32.216 INFO - Done: [find element: By.cssSelector: input[id="db.password"]]
+18:51:32.220 INFO - Executing: [clear: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]])
+18:51:32.252 INFO - Done: [clear: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]]
+18:51:32.258 INFO - Executing: [find element: By.cssSelector: input[id="db.password"]])
+18:51:32.276 INFO - Done: [find element: By.cssSelector: input[id="db.password"]]
+18:51:32.282 INFO - Executing: [send keys: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]], [G, M, S, g, m, s, 1, 2, 3]])
+18:51:32.377 INFO - Done: [send keys: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]], [G, M, S, g, m, s, 1, 2, 3]]
+18:51:32.386 INFO - Executing: [find element: By.cssSelector: input[id="reports.config"]])
+18:51:32.405 INFO - Done: [find element: By.cssSelector: input[id="reports.config"]]
+18:51:32.409 INFO - Executing: [clear: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]])
+18:51:32.437 INFO - Done: [clear: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]]
+18:51:32.447 INFO - Executing: [find element: By.cssSelector: input[id="reports.config"]])
+18:51:32.469 INFO - Done: [find element: By.cssSelector: input[id="reports.config"]]
+18:51:32.474 INFO - Executing: [send keys: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]], []])
+18:51:32.520 INFO - Done: [send keys: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]], []]
+18:51:32.524 INFO - Executing: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect])
+18:51:32.541 INFO - Done: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]
+18:51:32.545 INFO - Executing: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]])
+18:51:32.611 INFO - Done: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]]
+18:51:32.618 INFO - Executing: [find elements: By.cssSelector: input[id="db.password"]])
+18:51:32.655 INFO - Done: [find elements: By.cssSelector: input[id="db.password"]]
+18:51:32.662 INFO - Executing: [is displayed: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]])
+18:51:32.680 INFO - Done: [is displayed: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]]
+18:51:32.686 INFO - Executing: [find element: By.cssSelector: input[id="db.password"]])
+18:51:32.705 INFO - Done: [find element: By.cssSelector: input[id="db.password"]]
+18:51:32.710 INFO - Executing: [clear: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]])
+18:51:32.736 INFO - Done: [clear: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]]
+18:51:32.744 INFO - Executing: [find element: By.cssSelector: input[id="db.password"]])
+18:51:32.765 INFO - Done: [find element: By.cssSelector: input[id="db.password"]]
+18:51:32.769 INFO - Executing: [get element attribute: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]], value])
+18:51:32.785 INFO - Done: [get element attribute: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]], value]
+18:51:32.794 INFO - Executing: [find element: By.cssSelector: input[id="db.password"]])
+18:51:32.817 INFO - Done: [find element: By.cssSelector: input[id="db.password"]]
+18:51:32.823 INFO - Executing: [send keys: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]], [f, a, l, s, e]])
+18:51:32.887 INFO - Done: [send keys: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]], [f, a, l, s, e]]
+18:51:32.906 INFO - Executing: [find element: By.cssSelector: input[id="db.password"]])
+18:51:32.923 INFO - Done: [find element: By.cssSelector: input[id="db.password"]]
+18:51:32.928 INFO - Executing: [get element attribute: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]], value])
+18:51:32.938 INFO - Done: [get element attribute: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]], value]
+18:51:32.943 INFO - Executing: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect])
+18:51:32.961 INFO - Done: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]
+18:51:32.965 INFO - Executing: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]])
+18:51:33.019 INFO - Done: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]]
+18:51:33.026 INFO - Executing: [find elements: By.cssSelector: #sysadmin_connectToDBState])
+18:51:33.052 INFO - Done: [find elements: By.cssSelector: #sysadmin_connectToDBState]
+18:51:33.058 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]])
+18:51:33.076 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]]
+18:51:33.083 INFO - Executing: [find element: By.cssSelector: #sysadmin_connectToDBState])
+18:51:33.103 INFO - Done: [find element: By.cssSelector: #sysadmin_connectToDBState]
+18:51:33.106 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]])
+18:51:33.129 INFO - Done: [get text: 5 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #sysadmin_connectToDBState]]
+18:51:34.135 INFO - Executing: [find elements: By.cssSelector: input[id="db.server"]])
+18:51:34.157 INFO - Done: [find elements: By.cssSelector: input[id="db.server"]]
+18:51:34.161 INFO - Executing: [is displayed: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]])
+18:51:34.181 INFO - Done: [is displayed: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]]
+18:51:34.186 INFO - Executing: [find elements: By.cssSelector: input[id="db.port"]])
+18:51:34.204 INFO - Done: [find elements: By.cssSelector: input[id="db.port"]]
+18:51:34.207 INFO - Executing: [is displayed: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]])
+18:51:34.223 INFO - Done: [is displayed: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]]
+18:51:34.228 INFO - Executing: [find elements: By.cssSelector: input[id="db.name"]])
+18:51:34.247 INFO - Done: [find elements: By.cssSelector: input[id="db.name"]]
+18:51:34.250 INFO - Executing: [is displayed: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]])
+18:51:34.269 INFO - Done: [is displayed: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]]
+18:51:34.274 INFO - Executing: [find elements: By.cssSelector: input[id="db.user"]])
+18:51:34.298 INFO - Done: [find elements: By.cssSelector: input[id="db.user"]]
+18:51:34.303 INFO - Executing: [is displayed: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]])
+18:51:34.321 INFO - Done: [is displayed: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]]
+18:51:34.329 INFO - Executing: [find elements: By.cssSelector: input[id="db.password"]])
+18:51:34.349 INFO - Done: [find elements: By.cssSelector: input[id="db.password"]]
+18:51:34.354 INFO - Executing: [is displayed: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]])
+18:51:34.373 INFO - Done: [is displayed: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]]
+18:51:34.378 INFO - Executing: [find elements: By.cssSelector: input[id="reports.config"]])
+18:51:34.397 INFO - Done: [find elements: By.cssSelector: input[id="reports.config"]]
+18:51:34.401 INFO - Executing: [is displayed: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]])
+18:51:34.416 INFO - Done: [is displayed: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]]
+18:51:34.421 INFO - Executing: [find element: By.cssSelector: input[id="db.server"]])
+18:51:34.440 INFO - Done: [find element: By.cssSelector: input[id="db.server"]]
+18:51:34.444 INFO - Executing: [clear: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]])
+18:51:34.473 INFO - Done: [clear: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]]]
+18:51:34.480 INFO - Executing: [find element: By.cssSelector: input[id="db.server"]])
+18:51:34.499 INFO - Done: [find element: By.cssSelector: input[id="db.server"]]
+18:51:34.504 INFO - Executing: [send keys: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]], [1, 9, 2, ., 1, 6, 8, ., 0, ., 9, 3]])
+18:51:34.610 INFO - Done: [send keys: 11 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.server"]], [1, 9, 2, ., 1, 6, 8, ., 0, ., 9, 3]]
+18:51:34.615 INFO - Executing: [find element: By.cssSelector: input[id="db.port"]])
+18:51:34.632 INFO - Done: [find element: By.cssSelector: input[id="db.port"]]
+18:51:34.637 INFO - Executing: [clear: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]])
+18:51:34.668 INFO - Done: [clear: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]]]
+18:51:34.674 INFO - Executing: [find element: By.cssSelector: input[id="db.port"]])
+18:51:34.691 INFO - Done: [find element: By.cssSelector: input[id="db.port"]]
+18:51:34.696 INFO - Executing: [send keys: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]], [1, 4, 3, 3]])
+18:51:34.758 INFO - Done: [send keys: 13 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.port"]], [1, 4, 3, 3]]
+18:51:34.764 INFO - Executing: [find element: By.cssSelector: input[id="db.name"]])
+18:51:34.782 INFO - Done: [find element: By.cssSelector: input[id="db.name"]]
+18:51:34.786 INFO - Executing: [clear: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]])
+18:51:34.808 INFO - Done: [clear: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]]]
+18:51:34.815 INFO - Executing: [find element: By.cssSelector: input[id="db.name"]])
+18:51:34.832 INFO - Done: [find element: By.cssSelector: input[id="db.name"]]
+18:51:34.837 INFO - Executing: [send keys: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]], [G, M, S, S, a, m, p, l, e, 3, 8, x, m, l]])
+18:51:34.967 INFO - Done: [send keys: 14 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.name"]], [G, M, S, S, a, m, p, l, e, 3, 8, x, m, l]]
+18:51:34.971 INFO - Executing: [find element: By.cssSelector: input[id="db.user"]])
+18:51:34.993 INFO - Done: [find element: By.cssSelector: input[id="db.user"]]
+18:51:34.997 INFO - Executing: [clear: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]])
+18:51:35.030 INFO - Done: [clear: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]]]
+18:51:35.044 INFO - Executing: [find element: By.cssSelector: input[id="db.user"]])
+18:51:35.058 INFO - Done: [find element: By.cssSelector: input[id="db.user"]]
+18:51:35.067 INFO - Executing: [send keys: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]], [s, a]])
+18:51:35.121 INFO - Done: [send keys: 15 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.user"]], [s, a]]
+18:51:35.126 INFO - Executing: [find element: By.cssSelector: input[id="db.password"]])
+18:51:35.144 INFO - Done: [find element: By.cssSelector: input[id="db.password"]]
+18:51:35.149 INFO - Executing: [clear: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]])
+18:51:35.174 INFO - Done: [clear: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]]]
+18:51:35.180 INFO - Executing: [find element: By.cssSelector: input[id="db.password"]])
+18:51:35.198 INFO - Done: [find element: By.cssSelector: input[id="db.password"]]
+18:51:35.204 INFO - Executing: [send keys: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]], [G, M, S, g, m, s, 1, 2, 3]])
+18:51:35.300 INFO - Done: [send keys: 16 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="db.password"]], [G, M, S, g, m, s, 1, 2, 3]]
+18:51:35.304 INFO - Executing: [find element: By.cssSelector: input[id="reports.config"]])
+18:51:35.329 INFO - Done: [find element: By.cssSelector: input[id="reports.config"]]
+18:51:35.334 INFO - Executing: [clear: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]])
+18:51:35.360 INFO - Done: [clear: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]]]
+18:51:35.366 INFO - Executing: [find element: By.cssSelector: input[id="reports.config"]])
+18:51:35.383 INFO - Done: [find element: By.cssSelector: input[id="reports.config"]]
+18:51:35.388 INFO - Executing: [send keys: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]], []])
+18:51:35.433 INFO - Done: [send keys: 17 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: input[id="reports.config"]], []]
+18:51:35.437 INFO - Executing: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect])
+18:51:35.459 INFO - Done: [find element: By.cssSelector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]
+18:51:35.463 INFO - Executing: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]])
+18:51:35.542 INFO - Done: [click: 12 [[ChromeDriver: chrome on LINUX (e0943b5f7670786350891a78d39c9ecf)] -> css selector: #SA_startup_params_BtnAppLocalConfigSaveAndReconnect]]
+18:51:35.554 INFO - Executing: [delete session: a35d480f-1644-454d-9f93-66fc44b3e4db])
+18:51:35.671 INFO - Done: [delete session: a35d480f-1644-454d-9f93-66fc44b3e4db]
